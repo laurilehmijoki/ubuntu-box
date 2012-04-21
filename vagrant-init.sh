@@ -12,6 +12,5 @@ echo Cloning dotfiles from GitHub as read-only
 git init
 git remote add origin git://github.com/laurilehmijoki/dotfiles.git
 git pull origin master
-source .bash_profile
 
 echo Git is now set up. For read-write access, remember to add the public SSH key to GitHub.
