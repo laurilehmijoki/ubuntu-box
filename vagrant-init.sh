@@ -17,3 +17,6 @@ echo Git is now set up. For read-write access, remember to add the public SSH ke
 
 echo Setting the locale...
 echo LC_ALL=\"en_US.utf8\" >> /etc/environment
+
+# Restore ownership to the vagrant user
+chown -R vagrant:root /home/vagrant
