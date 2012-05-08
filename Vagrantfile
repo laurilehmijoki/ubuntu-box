@@ -1,7 +1,7 @@
 Vagrant::Config.run do |config|
   config.vm.box = "base"
 
-  config.vm.network :bridged
+  config.vm.network :hostonly, "10.11.12.13"
 
   config.vm.provision :shell, :path => "vagrant-init.sh"
 
