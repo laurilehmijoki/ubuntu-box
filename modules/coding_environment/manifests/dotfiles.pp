@@ -14,6 +14,6 @@ class coding_environment::dotfiles {
 
   exec { '/tmp/install_dotfiles.sh':
     require => File['/tmp/install_dotfiles.sh'],
-    onlyif  => 'test -f /home/llehmijo/.git -gt 0'
+    unless  => 'test -f /home/llehmijo/.git -gt 0'
   }
 }
