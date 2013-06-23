@@ -18,7 +18,8 @@ Aims of this project are:
 
 1. Launch an Ubuntu EC2 instance
 2. Log in with SSH
-3. `git clone https://github.com/laurilehmijoki/ubuntu-box.git`
-4. `sudo apt-get install puppet-common`
-5. `sudo puppet apply ubuntu-box/manifests/lauri_box.pp --modulepath
+3. `sudo apt-get install git`
+4. `git clone https://github.com/laurilehmijoki/ubuntu-box.git`
+5. `sudo apt-get install puppet-common`
+6. `sudo puppet apply ubuntu-box/manifests/lauri_box.pp --modulepath
    ubuntu-box/modules`
