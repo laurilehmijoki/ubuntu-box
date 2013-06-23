@@ -10,7 +10,7 @@ class coding_environment::vim {
   }
 
   # Command-T requires this:
-  package { 'ruby-dev':
+  package { ['ruby-dev', 'make']:
     ensure => installed
   }
 
