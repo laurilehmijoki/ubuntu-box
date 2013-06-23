@@ -1,6 +1,11 @@
-# Vagrant Ubuntu for development
+# Ubuntu box configs
 
-This project contains a [Vagrant](http://vagrantup.com/) config.
+This project contains the configs for setting up a personal Ubuntu instance.
+
+Aims of this project are:
+
+* Make it easy to set up an Ubuntu instance with personal configs
+* Make it easy to develop the configs further
 
 ## Usage with Vagrant
 
